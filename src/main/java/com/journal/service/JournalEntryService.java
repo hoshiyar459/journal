@@ -19,6 +19,7 @@ public class JournalEntryService {
    public void SaveEntry(JournalEntry journalEntry){ 
         journalEntryRepository.save(journalEntry); 
    }
+   
    public List<JournalEntry> getAll(){
      return  journalEntryRepository.findAll(); 
    }
