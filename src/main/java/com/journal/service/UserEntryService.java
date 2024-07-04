@@ -31,4 +31,8 @@ public class UserEntryService {
    public void delete(ObjectId id){
       userEntryRepository.deleteById(id); 
    }
+public void SaveEntry(User user) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'SaveEntry'");
+}
 }
